@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fb;
+    color: #212529;
+}
+
+
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero-section h1 {
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    margin-bottom: 30px;
+}
+
+
+
+.book-table {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.book-table table {
+    margin-bottom: 0;
+}
+
+.book-table th {
+    padding: 18px;
+    font-size: 15px;
+}
+
+.book-table td {
+    padding: 18px;
+}
+
+.book-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #f8f9fa;
+}
+
+
+.download-btn {
+    border-radius: 8px;
+    padding: 9px 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(13, 110, 253, 0.3);
+}
+
+
+
+.book-table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.book-table tbody tr:hover {
+    background-color: #f8faff;
+}
+
+
+.about-section {
+    background-color: white;
+}
+
+.about-text {
+    max-width: 700px;
+    line-height: 1.8;
+}
+
+
+
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 25px 0;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .hero-section {
+        padding: 60px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .book-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .download-btn {
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+
+    .book-table th,
+    .book-table td {
+        padding: 12px;
+    }
+}
